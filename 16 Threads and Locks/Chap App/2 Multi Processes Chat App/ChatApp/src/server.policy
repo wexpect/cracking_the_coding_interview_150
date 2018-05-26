@@ -1,0 +1,9 @@
+
+grant {
+    permission java.net.SocketPermission "129.25.36.245:*", "connect,resolve";
+    permission java.net.SocketPermission "129.25.36.245:*", "accept";
+    permission java.net.SocketPermission "129.25.60.234:*", "connect,resolve";
+    permission java.net.SocketPermission "129.25.60.234:*", "accept";
+    permission java.net.SocketPermission "127.0.0.1:*", "connect,resolve";
+    permission java.net.SocketPermission "127.0.0.1:*", "accept";
+};
